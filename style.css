@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
+
+/* Main Section */
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #EEEEEE; 
+  
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav .logo {
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #12b8c1;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+.btn-cta button {
+   padding: 9px 25px;
+   border-radius: 55px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   background-color: #222831;
+   color: white;
+}
+
+.btn-cta button:hover {
+    background-color: rgba(121, 126, 128, 0.8);
+    transition: all 0.3s ease;
+    color: black;
+    background-color: #CBF1F5;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 4em;
+    margin-top: 7em;
+    
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    background-image: url(/profile.jpg);
+    background-size:cover ;
+}
+
+.name {
+    margin-top: 0.8em;
+    text-align: center;
+   
+}
+
+.desc {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    margin-top: 0.5em;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+.icons ul  {
+    display: flex;
+    list-style: none;
+
+}
+
+.icons ul li {
+    padding: 20px 30px;
+}
+
+.icons ul li a {
+    color:#222831;
+    
+}
+
+.icons ul li a:hover {
+    color: #00ADB5;
+    transition: all 0.5s ease;
+}
+
+/* About Section */
+
+.section-abt {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #EEEEEE;
+    
+    
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row-reverse;
+}
+
+.section-abt img {
+    width: 313px;
+    height: 500px;
+    border-left: 1px solid black;
+    padding-left: 20px;
+   
+}
+
+.about-txt {
+    width: 550px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    
+}
+
+
+.about-txt h4 {
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    border-bottom: 1.5px solid black;
+}
+
+.about-txt ul {
+    margin-top: 20px;
+}
+
+.about-txt ul li {
+    margin-bottom: 3px;
+    list-style: none;
+   
+}
+
+.education {
+    margin-top: 20px;
+}
+
+/* Experience Section */
+
+.experience {
+    width: 100%;
+    padding: 150px 0 110px 0;
+    background-color: #EEEEEE;
+    
+    
+}
+
+.experience .title {
+    font-size:35px ;
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+
+.list-exp {
+    margin: 30px auto;
+    text-align: center;
+   
+}
+
+.list-exp ul li{
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Footer Section */
+
+.footer {
+    width: 100%;
+    height: 35px;
+    background-color: #222831;
+    
+}
+
+.footer p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+
