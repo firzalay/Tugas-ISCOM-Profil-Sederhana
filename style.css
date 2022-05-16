@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
+   
 }
 
 /* Main Section */
@@ -231,5 +231,4 @@ nav ul li a:hover {
     font-size: 13px;
     padding-top: 5px;
 }
-
 
